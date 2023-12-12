@@ -26,6 +26,7 @@ python heapplayer.py --max [numbers...]
 python heapplayer.py -m [numbers...]
 python heapplayer.py --min [numbers...]
 ```
+![image](https://github.com/itsphucuong/heap-player/assets/118279100/97595674-55d4-40ea-ae40-05cba827174f)
 
 ### Ví Dụ
 ```bash
