@@ -2,7 +2,7 @@
 # Heap Builder
 
 ## Mô Tả
-Chương trình này được thiết kế để xây dựng max heap và min heap từ một dãy số nhập vào. Nó sử dụng `colorama` để tạo màu sắc trong đầu ra và `tabulate` để hiển thị heap dưới dạng bảng đẹp mắt.
+Chương trình này được thiết kế để xây dựng max heap và min heap từ một dãy số nhập vào dể phục vụ cho việc kiểm tra kết quả làm bài với Max/Min heap. Chương trình sử dụng `colorama` để tạo màu sắc trong đầu ra và `tabulate` để hiển thị heap dưới dạng bảng.
 
 ## Cài Đặt
 Chương trình yêu cầu Python 3. Để cài đặt các thư viện cần thiết, hãy chạy lệnh sau:
