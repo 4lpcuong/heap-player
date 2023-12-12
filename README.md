@@ -9,6 +9,7 @@ Chương trình yêu cầu Python 3. Để cài đặt các thư viện cần th
 
 ```bash
 pip install colorama tabulate
+git clone https://github.com/itsphucuong/heap-player.git
 ```
 
 ## Sử Dụng
@@ -19,18 +20,22 @@ Chương trình có thể được chạy từ dòng lệnh và có hai chế đ
 
 ### Cú Pháp
 ```bash
-python chuongtrinh.py -M [numbers...]
-python chuongtrinh.py --max [numbers...]
+python heapplayer.py -M [numbers...]
+python heapplayer.py --max [numbers...]
 
-python chuongtrinh.py -m [numbers...]
-python chuongtrinh.py --min [numbers...]
+python heapplayer.py -m [numbers...]
+python heapplayer.py --min [numbers...]
 ```
 
 ### Ví Dụ
 ```bash
-python chuongtrinh.py --max 33 96 14 29 78 94 34 42 93 99
-python chuongtrinh.py --min 33 96 14 29 78 94 34 42 93 99
+python heapplayer.py --max 33 96 14 29 78 94 34 42 93 99
+python heapplayer.py --min 33 96 14 29 78 94 34 42 93 99
 ```
+![image](https://github.com/itsphucuong/heap-player/assets/118279100/5782522d-fe04-4901-925a-9c876032d648)
+
+![image](https://github.com/itsphucuong/heap-player/assets/118279100/4e99fd7a-a942-49a6-b50e-4741bd4c3599)
+
 
 ## Tác Giả
 Cuong Lam Phu
