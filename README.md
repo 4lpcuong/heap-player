@@ -9,10 +9,8 @@ Chương trình yêu cầu Python 3. Để cài đặt các thư viện cần th
 
 ```bash
 pip install colorama tabulate
-git clone https://github.com/username/heap-player.git
+git clone https://github.com/4lpcuong/heap-player.git
 ```
-
-Thay `username` bằng tên người dùng GitHub của bạn.
 
 ## Sử Dụng
 Chương trình có thể được chạy từ dòng lệnh và có hai chế độ hoạt động:
