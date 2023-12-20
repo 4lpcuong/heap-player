@@ -1,3 +1,4 @@
+
 import sys
 import argparse
 from colorama import Fore, Style, init
@@ -58,10 +59,11 @@ def main(args):
         print(Fore.RED + "No valid heap type specified." + Style.RESET_ALL)
         sys.exit(1)
 
-    for i in range(1, len(numbers) + 1):
-        current_heap = numbers[:i]
-        build_heap(current_heap, i)
-        heap_steps.append(list(current_heap))
+    current_heap = []
+    for num in numbers:
+        current_heap.append(num)  # Thêm phần tử mới vào cuối heap
+        build_heap(current_heap, len(current_heap))  # Điều chỉnh heap sau mỗi lần thêm
+        heap_steps.append(list(current_heap))  # Lưu trạng thái của heap sau mỗi bước
 
     print(Fore.GREEN + f"\nBuilding a {heap_type}:" + Style.RESET_ALL)
     print(tabulate(enumerate(heap_steps, 1), headers=["Step", "Heap"], tablefmt="fancy_grid"))
@@ -73,3 +75,4 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     main(args)
+
